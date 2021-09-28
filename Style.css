@@ -1,0 +1,65 @@
+﻿/*=========================*/
+/*======BASIC SETUP========*/
+/*=========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    background-color: #fff;
+    color: #555555; /*font colour*/
+    font-family: 'Lato','Arial',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+        content: '.';
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden;
+    }
+
+h1 {
+    font-weight: 300;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center
+}
+
+p{
+    text-align: center;
+}
+
+.row{
+    text-align:center;
+}
+
+.table {
+    margin-top:30px;
+    display: inline-block;
+    width:75%;
+}
+
+#Load_Report {
+    text-align: center;
+}
+
+body {
+}
